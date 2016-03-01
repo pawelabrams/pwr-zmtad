@@ -12,7 +12,7 @@ subplot(212)
 hist(czasy, 7)
 
 % średni czas, mediana, odchylenie standardowe
-[m, md, v] = [mean(czasy), median(czasy), var(czasy)]
+[m, md, v] = [mean(czasy), median(czasy), std(czasy)]
 
 % min, max
 [mn, mx] = [min(czasy), max(czasy)]
