@@ -1,5 +1,8 @@
 % ćwiczenie sprawdzające umiejętność rysowania wykresów; porównanie generatorów liczb pseudolosowych
 
+% ziarno dla generatorów; wpisane z zamkniętymi oczami ;P
+seed = 2865
+
 % 300 próbek w wektorze z każdego z generatorów
 no = randn(300,1)
 g1 = gen1(seed, 300)
