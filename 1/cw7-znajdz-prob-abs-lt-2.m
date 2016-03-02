@@ -4,7 +4,7 @@
 % możemy sprawdzić to empirycznie
 probka  = randn(1000,1);
 sukcesy = 0;
-for x=1:1000
+for i=1:1000
 	if (abs(probka(i)) < 2)
 		sukcesy = sukcesy + 1;
 	end
