@@ -1,5 +1,5 @@
 % lista 3, zadanie 11
-% Przeprowadz analize czy dane te pochodzą z rozkładu normalnego:
+% Czy zmienna cukier z pliku pacjenci.csv ma rozkład normalny?
 
 % open file
 file = fopen('pacjenci.csv');
