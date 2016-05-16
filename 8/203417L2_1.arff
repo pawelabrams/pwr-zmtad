@@ -1,0 +1,13 @@
+@relation kredyty
+
+@attribute kwota_kredytu real
+@attribute wiek real
+@attribute plec {K, M}
+@attribute status {pozytywny, negatywny}
+
+@data
+480.26,
+608.18,
+652.63,
+490.30,
+332.19,

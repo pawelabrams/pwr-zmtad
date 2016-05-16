@@ -13,8 +13,8 @@ dane = [4.64 5.12 4.64 3.21 3.92 4.95 3.75 2.95 2.95;
 
 disp('# Test normalnosci');
 for x = 1:9
-	[h p stats] = swtest(dane(:,x));
-    p
+  [h p stats] = swtest(dane(:,x));
+  p
 end
 
 disp('# Test rownosci wariancji')
@@ -23,6 +23,6 @@ disp('# Test rownosci wariancji')
 disp('# Test ANOVA2');
 p = anova2([dane(:, 1:3); dane(:, 4:6); dane(:, 7:9)],12)
 
-%H01 - srednia wydolnosc dla kazdego zakladu jest jednakowa
-%H02 - srednia wydolnosc jest niezalezna od rodzaju substancji
-%H03 - zak?ad i rodzaj substancji nie maja wplywu na srednia wydolnosc wydechu
+%H01 - œrednia wydolnoœc dla ka¿dego zak³adu jest jednakowa
+%H02 - œrednia wydolnoœæ jest niezale¿na od rodzaju substancji
+%H03 - zak³ad i rodzaj substancji nie maj¹ wp³ywu na œredni¹ wydolnoœæ wydechu
